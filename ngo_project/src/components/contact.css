@@ -1,0 +1,112 @@
+.footer-container {
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+     background-color: #a44f94;
+  }
+  body{
+    padding: 0px;
+    margin: 0px;
+  }
+  *{
+    padding: 0;
+    margin: 0px;
+  }
+  .head{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    line-height: 2;
+
+  }
+  .footer-text{
+  padding: 0px 40px;
+  }
+  .icon{
+    padding: 0px 6px;
+    font-size: 20px;
+    
+  }
+  .location-icon{
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+  }
+  .email-icon{
+    position: relative;
+    top: 5px;
+  }
+  p{
+    cursor: pointer;
+    line-height: 1.8;
+    padding: 0px 5px;
+  }
+  p:nth-child(2){
+    /* color: red; */
+    width: 250px;
+    /* white-space: wrap; */
+  }
+  .left-contact {
+    flex: 1;
+    padding: 10px;
+    /* border-right: 1px solid #000000;  */
+  }
+  .reachus{
+    margin-right: 35%;
+  }
+  
+  .right-contact {
+   
+
+    flex: 1;
+    padding: 10px;
+    color: white;
+    
+  }
+  .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 8px 0px;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 600px) {
+    .footer-container {
+      flex-direction: column;
+    }
+    
+    .left-contact,
+    .right-contact {
+      border: none;
+    }
+  }
+  .middle-contact{
+    margin-top: 6px;
+  }
+  .middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 8px 0px;
+    font-weight: 500;
+    
+  }
+
+
+  .copyright{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background: #444444;
+    font-weight: 300;
+    font-family: 'Karla', sans-serif;
+    color: white;
+
+}

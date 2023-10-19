@@ -1,0 +1,67 @@
+
+
+
+.content-container {
+    /* display: flex; */
+    flex-wrap: wrap;
+    font-family: 'Karla', sans-serif;
+    
+    gap: 20px;
+  }
+  .govtImg{
+    width: 1500px;
+    height: 400px;
+  }
+  
+.head-btn{
+  background-color: #a44f94;
+  color: white;
+border-radius: 0 64px 64px 0;
+height: 30px;
+padding: 8px 20px;
+animation: fadeIn 1s;
+}
+  .set-container {
+    /* flex: 1; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .heading {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .list-date-container {
+  }
+  
+  .bar {
+    height: 3px;
+    background-color: #333;
+    margin: 10px 0;
+  }
+  
+  .sub-heading {
+    font-weight: bold;
+  }
+  
+  .doc-list-container {
+  }
+  
+  .doc-detail-container {
+    margin: 10px 0;
+  }
+  
+  .date {
+  }
+  
+  .file-name {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .file-name:hover {
+    text-decoration: underline;
+  }
+  
